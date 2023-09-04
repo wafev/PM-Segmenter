@@ -4,10 +4,10 @@ The implementation of Prune and Merge Method for Segmenter.
  
 ## Installation
 
-The installation can follow the orginal segmenter [link]()
+The installation can follow the original segmenter [link](https://github.com/rstrudel/segmenter)
 
 ## Model Zoo
-We release models of compressed Seg-L-Mask/16 with different compression rate.
+We release models of compressed Seg-L-Mask/16 with different compression rates.
 
 ### ADE20K
 
@@ -26,8 +26,8 @@ We release models of compressed Seg-L-Mask/16 with different compression rate.
     <td>658</td>
     <td>640x640</td>
     <td>4.18</td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_tiny_mask/checkpoint.pth">model</a></td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_deit_linear/variant.yml">config</a></td>
+    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_large_mask_640/checkpoint.pth">model</a></td>
+    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_large_mask_640/variant.yml">config</a></td>
   </tr>
 <tr>
     <td>Seg-L-R08</td>
@@ -35,8 +35,8 @@ We release models of compressed Seg-L-Mask/16 with different compression rate.
     <td>528</td>
     <td>640x640</td>
     <td>5.25</td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_small_mask/checkpoint.pth">model</a></td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_deit_linear/variant.yml">config</a></td>
+    <td><a href="https://drive.google.com/file/d/1WvC1KZ8ro3BSE_qSC7q4yvhXSeYPu9Ox/view?usp=drive_link">model</a></td>
+    <td><a href="https://drive.google.com/file/d/18jImqbNma_IcoJ4eUF97UbjRMqMv5Z18/view?usp=drive_link">config</a></td>
   </tr>
 <tr>
     <td>Seg-L-R07</td>
@@ -44,8 +44,8 @@ We release models of compressed Seg-L-Mask/16 with different compression rate.
     <td>456</td>
     <td>640x640</td>
     <td>5.74</td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_mask/checkpoint.pth">model</a></td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_deit_linear/variant.yml">config</a></td>
+    <td><a href="https://drive.google.com/file/d/1IolNkoYzq0U9Ot5YhImgv4TjlNLqP-yW/view?usp=drive_link">model</a></td>
+    <td><a href="https://drive.google.com/file/d/13I-S2a37sy_1x3UB77WJnxksg_BXclt1/view?usp=drive_link">config</a></td>
   </tr>
 <tr>
     <td>Seg-L-R05</td>
@@ -53,8 +53,8 @@ We release models of compressed Seg-L-Mask/16 with different compression rate.
     <td>364</td>
     <td>640x640</td>
     <td>6.85</td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_patch8/checkpoint.pth">model</a></td>
-    <td><a href="https://www.rocq.inria.fr/cluster-willow/rstrudel/segmenter/checkpoints/ade20k/seg_base_deit_linear/variant.yml">config</a></td>
+    <td><a href="https://drive.google.com/file/d/18OmWOEWzRTz3Ee-yePYEJ2OaIDn5mDmr/view?usp=drive_link">model</a></td>
+    <td><a href="https://drive.google.com/file/d/1q0ZjvQliNmD7LGg3dNY_3qbBA_sxflqI/view?usp=drive_link">config</a></td>
   </tr>
 </table>
 
@@ -62,7 +62,7 @@ We release models of compressed Seg-L-Mask/16 with different compression rate.
 
 ## Inference
 
-Download one checkpoint with its configuration in a common folder, for example `seg_large_mask`.
+Download one checkpoint with its configuration in a common folder, for example, `seg_large_mask`.
 
 To evaluate on ADE20K, run the command:
 ```python
